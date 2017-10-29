@@ -1,0 +1,7 @@
+extends layout
+
+block content
+  h1= title
+  p Welcome to the test page for #{title}.
+  form(action="../test")
+    input(type="submit", value="Go to Test")

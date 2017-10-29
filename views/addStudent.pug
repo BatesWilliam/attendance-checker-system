@@ -1,0 +1,7 @@
+extends layout
+
+block content
+    h1 Thank you #{firstname},
+    p #{firstname} #{lastname} was added to the database with the Buff ID of #{buffID}.
+    form(action="/test")
+        input(type="submit", value="Go to Test")

@@ -1,0 +1,7 @@
+extends layout
+
+block content
+  h1= title
+  p You are seeing #{title} as you are testing your routing to different pages.
+  form(action="/hometest")
+    input(type="submit", value="Go to the Home Page")
